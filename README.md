@@ -20,7 +20,8 @@ $ composer require xu42/dlpu-ecard
 require_once './vendor/autoload.php';
 $userOutid = '1305040301';
 $dlpuEcard = new \Xu42\DlpuEcard\DlpuEcard($userOutid);
-$result = $dlpuEcard->get();
+$result = $dlpuEcard->getBalance();	// 校园卡余额
+$result = $dlpuEcard->getSumconsumer(); // 校园卡消费总额
 ```
 
 ## Change log
