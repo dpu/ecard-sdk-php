@@ -17,11 +17,17 @@
         }
     ],
     "require": {
-        "php" : "~5.5|~7.0"
+        "php" : "~7.0"
     },
     "autoload": {
         "psr-4": {
-            "Xu42\\DlpuEcard\\": "src"
+            "Cn\\Xu42\\DlpuEcard\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
         }
     }
 }
