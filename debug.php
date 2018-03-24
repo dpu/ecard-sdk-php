@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$dlpuEcard = new Cn\Xu42\DlpuEcard\Service\DlpuEcardService();
+$eCardService = new Org\DLPU\ECard\Service\ECardService();
 
-var_dump($dlpuEcard->getBalance('1305040333'));
-var_dump($dlpuEcard->getConsumption('1305040333'));
+var_dump($eCardService->getBalance('1405040222'));
+var_dump($eCardService->getConsumption('1405040222'));

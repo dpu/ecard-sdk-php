@@ -1,13 +1,13 @@
 {
-    "name": "xu42/dlpu-ecard",
-    "description": "dlpu-ecard 大连工业大学校园卡",
+    "name": "dpu/ecard",
+    "description": "ecard 大连工业大学校园卡",
     "keywords": [
-        "xu42",
-        "dlpu-ecard",
+        "dpu",
+        "ecard",
         "校园卡",
         "大连工业大学"
     ],
-    "homepage": "https://github.com/xu42/dlpu-ecard",
+    "homepage": "https://github.com/dpu/ecard-sdk-php",
     "license": "MIT",
     "authors": [
         {
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cn\\Xu42\\DlpuEcard\\": "src"
+            "Org\\DLPU\\ECard\\": "src"
         }
     },
     "repositories": {

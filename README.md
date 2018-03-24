@@ -11,7 +11,7 @@ dlpu-ecard 大连工业大学校园卡
 Via Composer
 
 ``` bash
-$ composer require xu42/dlpu-ecard
+$ composer require dpu/ecard
 ```
 
 ## Usage
@@ -37,17 +37,17 @@ If you discover any security related issues, please using the issue tracker.
 ## Credits
 
 - [Xu42](https://github.com/xu42)
-- [All Contributors](https://github.com/xu42/dlpu-ecard/contributors)
+- [All Contributors](https://github.com/dpu/ecard/contributors)
 
 ## License
 
-The GPL2.0 License. Please see [License File](LICENSE.md) for more information.
+The MIT License. Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/xu42/dlpu-ecard.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/dpu/ecard.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/xu42/dlpu-ecard.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/dpu/ecard.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/xu42/dlpu-ecard
-[link-downloads]: https://packagist.org/packages/xu42/dlpu-ecard
+[link-packagist]: https://packagist.org/packages/dpu/ecard
+[link-downloads]: https://packagist.org/packages/dpu/ecard
 [link-author]: https://github.com/xu42
 [link-contributors]: ../../contributors

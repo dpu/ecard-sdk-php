@@ -1,17 +1,17 @@
 <?php
 
-namespace Cn\Xu42\DlpuEcard\Service;
+namespace Org\DLPU\ECard\Service;
 
-use Cn\Xu42\DlpuEcard\BizImpl\DlpuEcardBizImpl;
-use Cn\Xu42\DlpuEcard\Exception\SystemException;
+use Org\DLPU\ECard\BizImpl\ECardBizImpl;
+use Org\DLPU\ECard\Exception\SystemException;
 
-class DlpuEcardService
+class ECardService
 {
     private $bizImpl = null;
 
     public function __construct()
     {
-        $this->bizImpl = new DlpuEcardBizImpl();
+        $this->bizImpl = new ECardBizImpl();
     }
 
     public function getBalance($username)

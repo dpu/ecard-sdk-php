@@ -1,6 +1,6 @@
 <?php
 
-namespace Cn\Xu42\DlpuEcard\Exception;
+namespace Org\DLPU\ECard\Exception;
 
 class BaseException extends \Exception
 {

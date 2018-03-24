@@ -1,11 +1,11 @@
 <?php
 
-namespace Cn\Xu42\DlpuEcard\BizImpl;
+namespace Org\DLPU\ECard\BizImpl;
 
-use Cn\Xu42\DlpuEcard\Exception\ArgumentException;
-use Cn\Xu42\DlpuEcard\Exception\SystemException;
+use Org\DLPU\ECard\Exception\ArgumentException;
+use Org\DLPU\ECard\Exception\SystemException;
 
-class DlpuEcardBizImpl
+class ECardBizImpl
 {
 
     const URL_BALANCE = 'http://210.30.62.32/ecard/yue.php';
